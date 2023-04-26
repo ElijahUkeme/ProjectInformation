@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools = "http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/regNum_add"
+            android:title="Add A Registration Number" />
+
+        <item android:id="@+id/supervisor_add"
+            android:title="Add A Supervisor" />
+
+            <item
+                android:id="@+id/regNum_remove"
+                android:title="Remove A Registration Number" />
+
+            <item
+                android:id="@+id/supervisor_remove"
+                android:title="Remove A Supervisor" />
+
+            <item
+                android:id="@+id/student_remove"
+                android:title="Remove A Student" />
+
+            <item
+                android:id="@+id/regNumber_viewAll"
+                android:title="View All Registration Numbers" />
+
+            <item
+                android:id="@+id/supervisor_viewAll"
+                android:title="View All Supervisors" />
+
+
+            <item
+                android:id="@+id/student_by_supervisor"
+                android:title="View Students by Supervisor" />
+
+            <item
+                android:id="@+id/student_search"
+                android:title="Search For A Student" />
+
+        <item
+            android:id="@+id/supervisor_update"
+            android:title="Update Supervisor Info" />
+
+
+        <item
+                android:id="@+id/reports_check"
+                android:title="Check For A Report" />
+    </group>
+</menu>

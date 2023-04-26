@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/welcome"
+    tools:context="activities.SupervisorLoginActivity">
+
+    <ProgressBar
+        android:id="@+id/progressBar_supervisor_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+
+    <EditText
+        android:id="@+id/supervisor_id_editText_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_design"
+        android:padding="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Enter your id"
+        android:textSize="20sp"
+        android:layout_centerInParent="true"
+        android:textColor="@color/teal_700"
+        android:textColorHint="@color/teal_700"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/login_supervisor_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/input_design"
+        android:padding="20dp"
+        android:layout_below="@id/supervisor_id_editText_login"
+        android:layout_centerInParent="true"
+        android:textColor="@color/teal_700"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:textSize="15sp"
+        android:layout_marginRight="15dp"/>
+</RelativeLayout>

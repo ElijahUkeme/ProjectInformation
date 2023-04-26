@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/welcome"
+    tools:context="activities.AdminAddOrRemoveARegistrationNumberActivity">
+
+    <TextView
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="88dp"
+        android:textStyle="bold|italic"
+        android:textAlignment="center"
+        android:textSize="42sp"
+        android:text="Welcome"
+        android:textColor="@color/teal_700"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar_admin_regNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+
+    <EditText
+        android:id="@+id/admin_add_or_remove_regNumber_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_design"
+        android:padding="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Enter the Registration Number"
+        android:textSize="20sp"
+        android:layout_centerInParent="true"
+        android:textColor="@color/teal_700"
+        android:textColorHint="@color/teal_700"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/admin_add_or_remove_regNumber_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/input_design"
+        android:padding="20dp"
+        android:layout_centerInParent="true"
+        android:textColor="@color/teal_700"
+        android:layout_below="@id/admin_add_or_remove_regNumber_editText"
+        android:text="Add"
+        android:textAllCaps="false"
+        android:textSize="15sp"
+        android:layout_marginRight="15dp"/>
+
+
+
+
+</RelativeLayout>
